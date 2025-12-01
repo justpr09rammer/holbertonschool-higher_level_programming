@@ -11,6 +11,4 @@ The projects are written in Python and focus on learning the foundations of high
 - pycodestyle 2.7
 - All scripts must be executable
 
-## ✨ Author
-**Your Name Here**
 Holberton School Student
