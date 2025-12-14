@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """2-rectangle, built for Holberton Python 
 """
 
