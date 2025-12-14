@@ -10,16 +10,17 @@ for inheritance without worrying about exact class matching.
 Functions:
     is_kind_of_class(obj, a_class): Returns True if obj is an instance of, or inherits from, a_class.
 """
-
 def is_kind_of_class(obj, a_class):
-    """Checks if an object is an instance of, or inherits from, a specified class.
+    """Tests if an object is an instance of the specified class,
+    or any class inherited from it.
 
     Args:
-        obj (any): The object to check.
-        a_class (class): The class to check the object against.
+        obj (any): object of any type
+        a_class (class): class to test against
 
     Returns:
-        bool: True if obj is an instance of a_class or inherits from a_class, False otherwise.
-    """
-    return isinstance(obj, a_class)
+        True if obj is instance of a_class or a subclass of a_class,
+            False otherwise.
 
+    """
+    return (isinstance(obj, a_class))
