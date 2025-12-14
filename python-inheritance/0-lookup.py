@@ -1,15 +1,18 @@
 #!/usr/bin/python3
-""Python - Inheritance, task 0 """
-
+"""
+This module defines a function lookup() that returns a list of attributes
+and methods of an object.
+"""
 
 def lookup(obj):
-    """Returns the list of available attributes and methods of an object.
+    """
+    Returns the list of available attributes and methods of an object.
 
     Args:
-        obj (any): object of any type
+        obj: The object to check for attributes and methods.
 
     Returns:
-        list of available attributes and methods
-
+        list: A list of strings representing the attributes and methods of the object.
     """
     return dir(obj)
+
